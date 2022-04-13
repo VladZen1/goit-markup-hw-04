@@ -367,16 +367,14 @@ align-items: center;
   justify-content: space-between;
   display: flex;
 }
-.clients-item {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
 .clients-link {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 170px;
   height: 92px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 .clients-icon {
   fill: #afb1b8;
@@ -388,7 +386,6 @@ align-items: center;
 .clients-link:hover,
 .clients-link:focus {
   border: 1px solid var(--accent-color);
-  border-radius: 4px;
 }
 .benefits-icon {
   display: flex;
